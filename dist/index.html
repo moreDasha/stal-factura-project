@@ -9,15 +9,107 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
     <link rel="manifest" href="img/favicon/site.webmanifest">
+
 <!-- стили -->
-    <link rel="stylesheet" href="css/style.min.css?_v=20230323165345">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230324154244">
 <!-- js -->
-    <script defer src="js/index.min.js?_v=20230323165345"></script>
+    <script defer src="js/index.min.js?_v=20230324154244"></script>
     <title>СтальФактура | Главная</title>
 </head>
-<body>
+<body class="body-page">
     <header class="header">
-        
+        <div class="header-top-part">
+    <div class="header-top-part__container container">
+        <nav class="header-nav-menu">
+            <ul class="header-nav-menu__list">
+                <li class="header-nav-menu__items">
+                    <a class="header-nav-menu__links" href="#">Оптовые продажи</a>
+                </li>
+                <li class="header-nav-menu__items">
+                    <a class="header-nav-menu__links" href="#">Услуги</a>
+                </li>
+                <li class="header-nav-menu__items">
+                    <a class="header-nav-menu__links" href="#">Доставка и самовывоз</a>
+                </li>
+                <li class="header-nav-menu__items">
+                    <a class="header-nav-menu__links" href="#">Оплата</a>
+                </li>
+                <li class="header-nav-menu__items">
+                    <a class="header-nav-menu__links" href="#">Возврат</a>
+                </li>
+                <li class="header-nav-menu__items">
+                    <a class="header-nav-menu__links" href="#">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="call-part">
+            <a class="call-part__link icon-phone" href="tel:+78885551111">+7 (888) 555-11-11</a>
+        </div>
+    </div>
+</div>
+
+<div class="header-main-part">
+    <div class="header-main-part__container container">
+        <img class="header-main-part__logo" src="img/svg/logo.svg" alt="logo">
+        <button class="header-main-part__catalog-btn header-catalog-btn">
+            <img class="header-catalog-btn__icon" src="img/svg/menu-dots.svg" alt="">
+            Каталог
+        </button>
+        <form class="header-main-part__search header-search" action="#">
+            <input class="header-search__input" type="text" name="form" placeholder="Поиск по продукции">
+            <button class="header-search__btn icon-search"></button>
+        </form>
+        <div class="header-main-part__icons header-icons-part">
+            <a class="header-icons-part__items icon-like" href="#"><span>Избранное</span></a>
+            <a class="header-icons-part__items icon-cart" href="#"><span>Корзина</span></a>
+        </div>
+    </div>
+</div>
+
+<div class="header-blue-part">
+    <div class="header-blue-part__container container">
+        <img class="header-blue-part__logo" src="img/svg/logo-white.svg" alt="logo">
+        <div class="header-blue-part__icons-part header-blue-icons-part">
+            <button class="header-blue-icons-part__searc-btn icon-search"></button>
+            <a class="header-blue-icons-part__call-link icon-phone" href="tel:+78885551111"></a>
+            <button class="header-blue-icons-part__burger-icon header-burger-icon">
+                <span class="header-burger-icon__line"></span>
+                <span class="header-burger-icon__line"></span>
+                <span class="header-burger-icon__line"></span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="header-blue-part__burger-menu burger-menu">
+    <div class="burger-menu__container container">
+        <nav class="burger-menu__nav-menu burger-nav-menu">
+            <ul class="burger-nav-menu__list">
+                <li class="burger-nav-menu__items">
+                    <a class="burger-nav-menu__links" href="#">Оптовые продажи</a>
+                </li>
+                <li class="burger-nav-menu__items">
+                    <a class="burger-nav-menu__links" href="#">Услуги</a>
+                </li>
+                <li class="burger-nav-menu__items">
+                    <a class="burger-nav-menu__links" href="#">Доставка и самовывоз</a>
+                </li>
+                <li class="burger-nav-menu__items">
+                    <a class="burger-nav-menu__links" href="#">Оплата</a>
+                </li>
+                <li class="burger-nav-menu__items">
+                    <a class="burger-nav-menu__links" href="#">Возврат</a>
+                </li>
+                <li class="burger-nav-menu__items">
+                    <a class="burger-nav-menu__links" href="#">Контакты</a>
+                </li>
+                <li class="burger-nav-menu__items">
+                    <a class="burger-nav-menu__links" href="#">Каталог</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
     </header>
 </body>
 </html>

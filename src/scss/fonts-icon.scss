@@ -1,0 +1,26 @@
+[class*=" icon-"] {
+    &:before {
+        font-family: "icon";
+        font-weight: normal;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        display: block;
+    }
+}
+
+.icon-phone:before {
+    content: "\e900";
+}
+.icon-cart:before {
+    content: "\e901";
+}
+.icon-like:before {
+    content: "\e902";
+}
+.icon-search:before {
+    content: "\e903";
+}
